@@ -64,7 +64,7 @@ nav {
     color: #1ac;
   }
   section {
-    height: 100vh;
+    height: 100svh;
     display: grid;
     place-items: center;
     font-size: 50px;
