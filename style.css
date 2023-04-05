@@ -73,11 +73,13 @@ nav {
   }
 
   footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: #fff;
+    color: #da2;
     position: sticky;
     bottom: 0;
-  }
-
-  footer p {
-    position: inherit;
     text-align: center;
   }
