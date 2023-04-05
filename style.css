@@ -1,0 +1,158 @@
+:root {
+    height:100svh;
+    --pink-rgb: 255 192 203;
+    --blue-rgb: 135 206 235;
+    --blue-rgb-comp: 222 155 80;
+    --primary-rgb: var(--blue-rgb);
+
+    --color-test: 255 229 116;
+    --color-test-comp: 80 81 222;
+    --peach-grey: 241 197 147;
+    --homerow-rgb: var(--blue-rgb-comp);
+    background-color:rgb(var(--color-test-comp) / 2%)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.homerow {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    border: 0.5svh solid rgb(var(--color-test-comp) / 87%);
+    aspect-ratio: 20 / 1;
+    border-radius: 1svw;
+    background-color: rgb(var(--color-test) / 100%);
+    overflow:hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.homerow > .title {
+    font-family: "Lucida Console", monospace;
+    color: rgb(var(--color-test-comp) / 87%);
+    text-align: center;
+    text-transform: uppercase; 
+    justify-self: center;
+    align-self: center;
+    opacity: 1;
+    font-size: 5svh;
+    text-shadow: 0px 0px 0.5rem rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 0.1svw;
+    text-decoration: none;
+}
+
+.homerow > .title:is(:hover),
+.homerow > .left:is(:hover),
+.homerow > .right:is(:hover) {  
+    text-decoration: overline; 
+}
+
+.homerow > :is(.left, .right) {
+    font-family: "Lucida Console", monospace;
+    color: rgb(var(--color-test-comp) / 75%);
+    text-align: center;
+    text-transform: uppercase; 
+    justify-self: center;
+    align-self: center;
+    opacity: 1;
+    font-size: 3svh;
+    text-shadow: 0px 0px 0.5rem rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 0.1svw;
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    border: 3px solid rgb(var(--primary-rgb) / 80%);
+    aspect-ratio: 16 / 10;
+    border-radius: 1svw;
+    background-color: rgb(var(--color-test-comp) / 15%);
+    overflow:hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.content > .image {
+    display: flex;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    margin: 1svh;
+    padding: 1svh;
+    position: relative;
+    border: 0.5svh solid rgb(var(--primary-rgb) / 80%);
+    border-radius: 1svw;
+    background-color:rgb(var(--color-test-comp) / 35%);
+}
+
+.content > .summary {
+    display: block;
+    max-height:500px;
+    flex-grow: 1;
+    margin: 1svh;
+    padding: 1svh;
+    position: relative;
+    border: 0.5svh solid rgb(var(--primary-rgb) / 80%);
+    border-radius: 1svh;
+    background-color:rgb(var(--color-test) / 65%);
+    font-family: "Monaco", monospace;
+    opacity: 1;
+    font-size: 3svh;
+    text-shadow: 0px 0px 0.5rem rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 0.1svw;
+    overflow: hidden;
+}
+
+.content > .summary > .link {
+    text-decoration: underline;
+    display:inline-block;
+    position: relative;
+    color: rgb(var(--color-test-comp) / 100%);
+}
+.content > .summary > .text {
+    padding-top: 1svh;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(var(--color-test-comp) / 100%);
+}
+.content > .summary > .resources {
+    padding-top: 3svh;
+}
+.content > .summary > .resources > .reslink {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(var(--color-test-comp) / 100%);
+}
+
+.content > .summary > .resources > .reslink:is(:hover) {
+    text-decoration: underline;
+}
+
+.summary > .resources > .link-icon {
+    margin-right: -1svw;
+    width: 3svw;
+    height:3svh;
+    vertical-align:text-bottom;
+    
+}
+
+.link {
+    color: rgb(var(--color-test-comp) / 87%);
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    opacity: 1;
+    font-size: 3svh;
+    text-shadow: 0px 0px 0.5rem rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 0.1svw;
+    text-decoration: none;
+}
