@@ -29,7 +29,7 @@ nav {
     position: sticky; top: 0;
 }
 
-body {
+  body {
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -59,11 +59,11 @@ body {
     color: #1ac;
   }
 
-  p a {
+  p > a {
     text-decoration: none;
     color: #1ac;
   }
-section {
+  section {
     height: 100vh;
     display: grid;
     place-items: center;
@@ -72,12 +72,12 @@ section {
     background: #eee;
   }
 
-footer {
+  footer {
     position: sticky;
     bottom: 0;
-}
+  }
 
-footer p {
+  footer > p {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
