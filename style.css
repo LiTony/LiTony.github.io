@@ -58,6 +58,11 @@ body {
     text-decoration: none;
     color: #1ac;
   }
+
+  p a {
+    text-decoration: none;
+    color: #1ac;
+  }
 section {
     height: 100vh;
     display: grid;
