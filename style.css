@@ -69,15 +69,15 @@ html {
     background: #eee;
   }
 
-  body section > .first {
+  body section.primary {
     background: rgb(var(--primary-rgb));
   }
 
-  body section > .second {
+  body section.alt {
     background:rgb(53, 201, 65)
   }
 
-  body section > .third {
+  body section.peach {
     background: rgb(var(--peach-grey));
   }
 
