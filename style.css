@@ -73,13 +73,12 @@ nav {
   }
 
   footer {
-    padding: 2svh;
-    font-size: 2svh;
+    color: rgb(34, 221, 181);
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
     font-weight: bold;
     background: #fff;
-    color: rgb(34, 221, 181);
     position: sticky;
     bottom: 0;
-    text-align: center;
-    height: 4svh;
   }
