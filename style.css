@@ -16,6 +16,11 @@
     box-sizing: border-box;
 }
 
+.personalsummary {
+    word-wrap: break-word;
+    width: 100px;
+}
+
 .homerow {
     width: 100%;
     display: grid;
