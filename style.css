@@ -25,6 +25,10 @@
     width: 100%;
 }
 
+nav {
+    position: sticky; top: 0;
+}
+
 .homerow {
     width: 100%;
     display: grid;
