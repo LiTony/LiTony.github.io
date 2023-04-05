@@ -21,6 +21,10 @@
     width: 40%;
 }
 
+.pagerepo {
+    width: 100%;
+}
+
 .homerow {
     width: 100%;
     display: grid;
