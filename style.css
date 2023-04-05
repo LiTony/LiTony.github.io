@@ -59,7 +59,7 @@ nav {
     color: #1ac;
   }
 
-  p > a {
+  p a {
     text-decoration: none;
     color: #1ac;
   }
@@ -77,7 +77,8 @@ nav {
     bottom: 0;
   }
 
-  footer > p {
+  footer p {
+    position: inherit;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
