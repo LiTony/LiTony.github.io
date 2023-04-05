@@ -18,11 +18,11 @@
 
 .personalsummary {
     word-wrap: break-word;
-    width: 40%;
+    width: 40svw;
 }
 
 .pagerepo {
-    width: 100%;
+    width: 100svw;
 }
 
 nav {
@@ -41,7 +41,7 @@ nav {
     top: 0;
   }
   ul {
-    width: 100%;
+    width: 100svw;
     display: flex;
     justify-content: flex-end;
     box-sizing: border-box;
@@ -73,7 +73,7 @@ nav {
   }
 
   footer {
-    padding: 0.5svh;
+    padding: 2svh;
     font-size: 2svh;
     font-weight: bold;
     background: #fff;
