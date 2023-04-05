@@ -71,3 +71,8 @@ section {
     font-weight: bold;
     background: #eee;
   }
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
