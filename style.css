@@ -68,6 +68,19 @@ html {
     font-weight: bold;
     background: #eee;
   }
+
+  body section > .first {
+    background: rgb(var(--primary-rgb));
+  }
+
+  body section > .second {
+    background:rgb(53, 201, 65)
+  }
+
+  body section > .third {
+    background: rgb(var(--peach-grey));
+  }
+
   body footer {
     padding: 3svh;
     text-align: center;
