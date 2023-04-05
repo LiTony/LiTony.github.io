@@ -25,13 +25,15 @@
     width: 100svw;
 }
 
-nav {
-    position: sticky; top: 0;
-}
-
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
   body {
     min-height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,45 +42,39 @@ nav {
     position: sticky;
     top: 0;
   }
-  ul {
-    width: 100svw;
+  body nav ul {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     box-sizing: border-box;
     padding: 20px;
     background: #fff;
   }
-  li {
+  body nav ul li {
     list-style: none;
     margin-right: 20px;
     font-size: 25px;
     font-weight: bold;
   }
-  li a {
+  body nav ul li a {
     text-decoration: none;
     color: #1ac;
   }
-
-  p a {
-    text-decoration: none;
-    color: #1ac;
-  }
-  section {
-    height: 100vh;
+  body section {
+    height: 100svh;
     display: grid;
     place-items: center;
     font-size: 50px;
     font-weight: bold;
     background: #eee;
   }
-
-  footer {
-    color: rgb(34, 221, 181);
-    padding: 10px;
+  body footer {
+    padding: 5svh;
     text-align: center;
-    font-size: 25px;
+    font-size: 10svhpx;
     font-weight: bold;
     background: #fff;
+    color: rgb(48, 170, 201);
     position: sticky;
     bottom: 0;
   }
