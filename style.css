@@ -69,12 +69,12 @@ html {
     background: #eee;
   }
   body footer {
-    padding: 5svh;
+    padding: 1svh;
     text-align: center;
-    font-size: 10svhpx;
+    font-size: 2svh;
     font-weight: bold;
     background: #fff;
-    color: rgb(48, 170, 201);
+    color: rgb(53, 201, 201);
     position: sticky;
     bottom: 0;
   }
