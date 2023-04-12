@@ -306,6 +306,14 @@ body.menu-toggled > .meta-link > span {
   #source-link {
     bottom: 60px;
   }
+
+  #return-link {
+    bottom: 110px;
+  }
+
+  #return-link > i {
+    color: rgb(94, 106, 210);
+  }
   
   #source-link > i {
     color: rgb(94, 106, 210);
