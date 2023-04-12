@@ -355,11 +355,11 @@ body.menu-toggled > .meta-link > span {
   color: rgb(94, 106, 210);
 }
 
-#return-link {
+#github-link {
   bottom: 110px;
 }
 
-#return-link > i {
+#github-link > i {
   color: rgb(94, 106, 210);
 }
 
