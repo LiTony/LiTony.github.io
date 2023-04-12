@@ -46,6 +46,7 @@ width: 20%;
 background-color: #FFA69E;
 z-index: 2;
 }
+
 #wrapper > .shape:nth-child(2) {
 left: 20%;
 top: 0%;
@@ -152,7 +153,7 @@ opacity: 1;
 }
 
 
-#wrapper > .shape > .shape-content > .shape-content-img {
+#wrapper > .shape > .shape-content > a > .shape-content-img {
 width: 100%;
 height: 100%;
 object-fit: cover;
