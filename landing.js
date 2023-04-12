@@ -1,9 +1,17 @@
 const wrapper = document.getElementById("wrapper");
 const wrapperOut = document.getElementById("wrapperOut");
-
+let mouseover = 0;
+wrapper.addEventListener("mouseover", (event) => {
+    mouseover = 1;
+});
+wrapper.addEventListener("mouseout", (event) => {
+    mouseover = 0;
+});
 const uniqueRand = (min, max, prev) => {
     let next = prev;
-    
+    if(mouseover === 1) {
+        return prev;
+    }
     while(prev === next) next = rand(min, max);
     
     return next;
@@ -22,9 +30,13 @@ const combinations = [
 
 let prev = 0;
 
+
+
 setInterval(() => {
     const index = uniqueRand(0, combinations.length - 1, prev),
         combination = combinations[index];
+
+    
 
     wrapper.dataset.config = combination.config;
     wrapper.dataset.roundness = combination.roundness;
